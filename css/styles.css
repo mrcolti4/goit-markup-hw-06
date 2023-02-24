@@ -517,6 +517,7 @@ img {
     line-height: calc(16 / 12);
     color: var(--color-light-slate);
     letter-spacing: 0.04em;
+    display: inline-block;
     margin-bottom: 4px;
 }
 
