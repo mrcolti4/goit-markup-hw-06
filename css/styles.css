@@ -469,11 +469,11 @@ img {
     transform: translate(-50%, -50%);
     opacity: 1;
     width: 408px;
-    height: 576px;
     background: #FCFCFC;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform var(--hover-effect), opacity var(--hover-effect);
+    padding: 72px 24px 24px 24px;
 }
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -70%);
@@ -505,13 +505,11 @@ img {
     color: var(--color-navy-blue);
     line-height: calc(24 / 16);
     letter-spacing: 0.02em;
-    padding-top: 72px;
     text-align: center;
     margin-bottom: 14px;
 }
 
 .modal-form {
-    padding: 0 24px 24px 24px;
 }
 
 .modal-form-label {
@@ -519,10 +517,12 @@ img {
     line-height: calc(16 / 12);
     color: var(--color-light-slate);
     letter-spacing: 0.04em;
+    margin-bottom: 4px;
 }
 
 .modal-form-group {
     position: relative;
+    margin-bottom: 8px;
 }
 
 .modal-form-field {
